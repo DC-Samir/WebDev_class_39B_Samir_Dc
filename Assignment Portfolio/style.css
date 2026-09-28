@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(15, 123, 231);
+}
+
+nav {
+    padding: 12px;
+}
+
+a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: rgb(237, 183, 5);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+#introduction h1 {
+    font-weight: bold;
+}
+
+#introduction {
+    text-align: center;
+    border-radius: 15px;
+}
+
+#introduction img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#experience li:nth-child(odd) {
+    font-weight: lighter;
+}
+
+#experience li:nth-child(even) {
+    font-weight: bold;
+}
+
+#skills {
+    text-align: center;
+    padding: 20px;
+}
+
+#skills table {
+    margin: auto;
+    width: 60%;
+}
+
+#skills th {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+#skills td {
+    border: 1px solid darkblue;
+    padding: 10px;
+}
+
+#skills tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+#projects {
+    padding: 20px;
+}
+
+#projects h1 {
+    color: darkblue;
+}
+
+#projects li {
+    padding: 8px;
+    margin: 5px;
+    background-color: lightblue;
+}
+
+#yt-vid {
+    text-align: center;
+    padding: 20px;
+}
+
+#yt-vid iframe {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: auto;
+}
+
+#form {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+#form h1 {
+    color: darkblue;
+}
+
+#form input {
+    padding: 5px;
+}
+
+#form select {
+    padding: 5px;
+}
